@@ -2,7 +2,7 @@ package model;
 
 public enum Animals {
     TIGER(3), LION(2), SNAKE(1), SHARK(2), CAT(5), WOLF(4);
-    int age;
+    private int age;
 
     Animals(int age) {
         this.age = age;
