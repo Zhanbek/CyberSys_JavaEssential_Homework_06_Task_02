@@ -1,7 +1,7 @@
 package model;
 
 public enum Animals {
-    Tiger(3), Lion(2), Snake(1), Shark(2), Cat(5), Wolf(4);
+    TIGER(3), LION(2), SNAKE(1), SHARK(2), CAT(5), WOLF(4);
     int age;
 
     Animals(int age) {
